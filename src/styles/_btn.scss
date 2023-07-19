@@ -1,0 +1,44 @@
+.btns {
+  @include transition ();
+
+  display: inline-block;
+  width: 140px;
+  height: 45px;
+  margin: $m-4;
+
+  text-decoration: none;
+  line-height: 45px;
+  border-radius: 45px;
+  text-align: center;
+  letter-spacing: 1px;
+
+  font-size: $font-12;
+  font-weight: $font-w-500;
+
+  color: $color-white;
+ 
+  box-shadow: 0 8px 15px $box-shadow-third;
+}
+.btns:hover {
+    @include filter();
+
+    box-shadow: 0 8px 15px $box-shadow-second;
+    transform: translateY(-3px);
+    cursor: pointer;
+}
+
+.btns__add{
+    background: $color-green;
+}
+
+.btns__up {
+    position: fixed;
+    right: 20px;;
+    bottom: 0 ;
+}
+
+.btns__up_hide {
+      display: none;     
+}
+
+
