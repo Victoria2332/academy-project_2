@@ -1,0 +1,32 @@
+.title {
+  padding: $p-2;
+
+  font-size: $font-48;
+  font-weight: $font-w-700;
+
+  text-align: center;
+  letter-spacing: .2rem;
+  line-height: 55px;
+  color: $color-green;
+  cursor: pointer;
+
+  &-section{
+    padding: $p-1-5;
+    line-height: 30px;
+    font-size: $font-24;
+    text-align: center;
+    color: $color-green;
+
+  }
+
+  &-description{
+    padding: 0 $p-0-5;
+
+    font-size: $font-12;
+    text-align: center;
+
+    color: $color-blue;
+    letter-spacing: 1px;
+    line-height: 1.3;
+  }
+}

@@ -1,5 +1,5 @@
 .btns {
-  @include transition ();
+  @include transition();
 
   display: inline-block;
   width: 140px;
@@ -16,29 +16,27 @@
   font-weight: $font-w-500;
 
   color: $color-white;
- 
   box-shadow: 0 8px 15px $box-shadow-third;
-}
-.btns:hover {
+
+  &:hover {
     @include filter();
 
-    box-shadow: 0 8px 15px $box-shadow-second;
+    box-shadow: 0 5px 10px $box-shadow-second;
     transform: translateY(-3px);
     cursor: pointer;
-}
+  }
 
-.btns__add{
+  &__add {
     background: $color-green;
-}
+  }
 
-.btns__up {
+  &__up {
     position: fixed;
-    right: 20px;;
-    bottom: 0 ;
+    right: 20px;
+    bottom: 0;
+
+    &_hide {
+      display: none;
+    }
+  }
 }
-
-.btns__up_hide {
-      display: none;     
-}
-
-

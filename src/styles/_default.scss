@@ -18,3 +18,44 @@ body {
 .container {
   @include container();
 }
+
+.close {
+  text-shadow: none;
+  opacity: 1;
+}
+
+.image{
+  width: 100%;
+
+  &__card{
+    position: absolute;
+    right: 0;
+    top: 5rem;
+
+    width: fit-content;
+    height: 80%;
+  }
+}
+
+.decorate {
+  color: $color-white;
+}
+
+.logo{
+  @include flex();
+
+  &-title {
+    @include transition();
+
+    padding-left: $p-1;
+    color: $color-white;
+    text-decoration: none;
+    font-weight: $font-w-500;
+
+    &:hover{
+      color: $color-green;
+      text-decoration: none;
+    }
+  }
+
+}
