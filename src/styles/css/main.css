@@ -166,6 +166,49 @@ body {
   text-decoration: none;
 }
 
+.checkout {
+  position: absolute;
+  top: -16rem;
+  right: 2rem;
+  z-index: 2;
+}
+
+.shape {
+  position: absolute;
+  left: 10rem;
+  top: -2rem;
+  z-index: 1;
+}
+
+.around {
+  height: 45rem;
+  border: 5px solid #20da7d;
+  border-radius: 50%;
+}
+.around .title {
+  transform: rotateZ(25deg);
+}
+.around-2 {
+  height: 35rem;
+  border: 5px solid #20da7d;
+  border-radius: 50%;
+}
+.around-3 {
+  height: 25rem;
+  border: 5px solid #20da7d;
+  border-radius: 50%;
+}
+.around-4 {
+  height: 15rem;
+  border: 5px solid #20da7d;
+  border-radius: 50%;
+}
+.around-5 {
+  height: 5rem;
+  border: 5px solid #20da7d;
+  border-radius: 50%;
+}
+
 .btns {
   transition: all 0.3s;
   display: inline-block;
@@ -402,6 +445,49 @@ body {
 .logo-title:hover {
   color: #20da7d;
   text-decoration: none;
+}
+
+.checkout {
+  position: absolute;
+  top: -16rem;
+  right: 2rem;
+  z-index: 2;
+}
+
+.shape {
+  position: absolute;
+  left: 10rem;
+  top: -2rem;
+  z-index: 1;
+}
+
+.around {
+  height: 45rem;
+  border: 5px solid #20da7d;
+  border-radius: 50%;
+}
+.around .title {
+  transform: rotateZ(25deg);
+}
+.around-2 {
+  height: 35rem;
+  border: 5px solid #20da7d;
+  border-radius: 50%;
+}
+.around-3 {
+  height: 25rem;
+  border: 5px solid #20da7d;
+  border-radius: 50%;
+}
+.around-4 {
+  height: 15rem;
+  border: 5px solid #20da7d;
+  border-radius: 50%;
+}
+.around-5 {
+  height: 5rem;
+  border: 5px solid #20da7d;
+  border-radius: 50%;
 }
 
 .header {
