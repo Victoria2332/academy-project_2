@@ -39,3 +39,9 @@
 .line{
   border-bottom: 2px solid $color-green;
 }
+
+.line_2{
+  margin-top: $m-2;
+  border-top: 2px solid $box-shadow;
+  border-bottom: 2px solid $box-shadow;
+}

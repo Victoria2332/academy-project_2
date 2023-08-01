@@ -37,3 +37,16 @@
     }
   }
 }
+
+.block_2 {
+  @include transition ();
+  @include flex ();
+
+  padding: $p-1;
+  background: transparent;
+  text-align: center;
+  border-radius: 1rem;
+  margin-left: $m-10;
+
+  cursor: pointer;
+}
